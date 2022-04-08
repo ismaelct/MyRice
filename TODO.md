@@ -9,7 +9,7 @@
 - [ ] Export VSCode config file
 
 ### In Progress
-- [*] Install [Nerd Fonts](https://www.nerdfonts.com/)[Download](https://www.nerdfonts.com/font-downloads)
-  - [*] Install [Jet Brains Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
+- [x] Install [Nerd Fonts](https://www.nerdfonts.com/)[Download](https://www.nerdfonts.com/font-downloads)
+  - [x] Install [Jet Brains Mono](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)
 
 ### Completed ✓
