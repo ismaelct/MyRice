@@ -12,7 +12,7 @@ Then to change themes we need the Gnome Tweak Tool.
 sudo add-apt-repository universe
 sudo apt-get install gnome-tweaks
 ```
-### Theme
+## Theme
 [Graphite](https://github.com/vinceliuice/Graphite-gtk-theme)
 Also added to the repository module (Graphite-gtk-theme)[./Graphite-gtk-theme]
 ```bash
@@ -25,7 +25,7 @@ My selection
 ./install.sh -t red --tweaks black
 ./install.sh -t purple --tweaks black
 ```
-### Nerd Fonts
+## Nerd Fonts
 My selection *__Jet Brains Mono Nerd Font__* [Download](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip)<br/>
 Also it's added to the repository ["JetBrainsMono"](./JetBrainsMono) folder
 
