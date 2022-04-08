@@ -21,7 +21,7 @@ cd Graphite-gtk-theme
 ```
 My selection
 ```bash
-./install.sh -t purple --tweaks nord
+./install.sh -t red --tweaks black
 ```
 # Alacrity
 
