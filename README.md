@@ -1,6 +1,6 @@
 # My Dot Files
 
-[The list of this To Do](TODO.md)
+[The list of things To Do](TODO.md)
 
 # Theming
 
