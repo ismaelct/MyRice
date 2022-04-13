@@ -34,6 +34,20 @@ Also it's added to the repository ["JetBrainsMono"](./JetBrainsMono) folder
 ```bash
 sudo apt install alacritty
 ```
+## Change default terminal
+```bash
+sudo update-alternatives --config x-terminal-emulator
+ # Then this will appear
+Existen 2 opciones para la alternativa x-terminal-emulator (que provee /usr/bin/x-terminal-emulator).
+
+  Selección   Ruta                             Prioridad  Estado
+------------------------------------------------------------
+* 0            /usr/bin/alacritty                50        modo automático
+  1            /usr/bin/alacritty                50        modo manual
+  2            /usr/bin/gnome-terminal.wrapper   40        modo manual
+
+Pulse <Intro> para mantener el valor por omisión [*] o pulse un número de selección: 
+```
 ## Config
 From the [release](https://github.com/alacritty/alacritty/releases) page
 we need to download the [alacritty.yml](https://github.com/alacritty/alacritty/releases/download/v0.10.1/alacritty.yml)
@@ -44,4 +58,23 @@ cd $HOME/.config/alacritty
 wget https://github.com/alacritty/alacritty/releases/download/<version>/alacritty.yml
 ```
 # Zsh
+
+# Lite-XL Text Editor
+## Install 
+Download from [Latest](https://github.com/lite-xl/lite-xl/releases/latest) last version then
+```bash
+tar -xzf <file>
+cd <file>
+cd lite-xl
+mkdir -p $HOME/.local/bin && cp bin/lite-xl $HOME/.local/bin
+cp -r share $HOME/.local
+echo -e 'export PATH=$PATH:$HOME/.local/bin' >> $HOME/.bashrc
+xdg-desktop-menu forceupdate
+```
+from lite-xl github [here](https://github.com/lite-xl/lite-xl#installing-prebuilt) and
+unistall from there to
+## Config
+[init.lua](./init.lua)
+
+
 
